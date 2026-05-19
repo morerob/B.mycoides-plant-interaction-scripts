@@ -19,7 +19,7 @@ Tomato plants were inoculated with Bacillus mycoides strain O2 and sampled over 
 
 ## Requirements
 
-R >= 4.3
+R >= 4.5.1
 
 Packages:
 - tidyverse
