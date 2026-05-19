@@ -2,7 +2,7 @@
 
 Repository containing scripts and processed datasets used in the manuscript:
 
-"Temporal dynamics of Bacillus mycoides colonization reveal oxylipin-associated restriction of systemic persistence in tomato"
+Systemic colonization by _Bacillus mycoides_ triggers transient metabolic reprogramming and oxylipin responses in tomato
 
 ## Repository contents
 
