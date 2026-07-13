@@ -12,8 +12,8 @@ library(openxlsx)
 ### ============================================================
 #setwd("C:/Users/marta/Documents/TESIS MARTA (propio)/Experimentos/EXP 311025")
 #raw_AB <- read_excel("colonization_combined_withzeros.xlsx")
-setwd("C:/Users/...")
-raw_AB <- read_excel("data/raw/CFU/Bmycoides_validation_colonization_raw.xlsx")
+setwd("C:/Users/marta/Documents/TESIS MARTA (propio)/3. BM-PLANT/Datos definitivos")
+raw_AB <- read_excel("Bmycoides_colonization_raw_all_experiments.xlsx")
 ### ============================================================
 ### 3) FILTER CM AND DAYS 3,5,7,10 
 ### ============================================================
@@ -79,4 +79,4 @@ p_heatmap <- ggplot(cm_mean,
 print(p_heatmap)
 
 ggsave("Supplementary_validation_heatmap.png",
-       p_heatmap, width = 9, height = 5, dpi = 300)
+       p_heatmap, width = 9, height = 5, dpi = 600)
